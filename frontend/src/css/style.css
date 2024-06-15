@@ -1,0 +1,1174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+#wrapper
+{
+    width: 100%;
+   
+}
+
+
+
+
+/*       Upload data validation    */
+   
+
+.form-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+form {
+  background-color: #e4cdcd;
+  padding: 20px;
+  
+
+  
+  border-radius: 1px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form div {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0 10px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+.search-item{
+  position: relative;
+  left: 600px;
+  width: 300px;
+}
+/* Search bOX */
+
+
+.search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-bottom: 1px solid rgb(15, 8, 8);
+ position: relative;
+ bottom: 25px;
+ 
+}
+
+/* List items */
+
+
+/* Admin link styling */
+.admin-item a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 23px;
+  height: 25px;
+  background-color: #ff3f6c;
+  color: #fff;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 20px;
+  transition: background-color 0.3s;
+}
+
+.admin-item a:hover {
+  background-color: #e63258;
+}
+
+
+
+/*      admiin dashboard       */
+
+#dashboardTop{
+  position: sticky;
+  top: 0px;
+  z-index: 991;
+}
+/* General styles */
+#dashboardTop h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#dashboardTop h2 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#adminDashboard {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+#dashboardTop {
+  background-color: #bd6060;
+  color: white;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  z-index: 991;
+  top: 0px;
+  width: 100%;
+  height: 50px;
+}
+
+#dashboardTop h1 {
+  margin: 0;
+}
+
+#dashboarddowan {
+  display: flex;
+  align-items: center;
+}
+
+#dashboarddowan h2 {
+  margin: 0;
+}
+
+#dashboarddowan a {
+  color: white;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 0.9em;
+}
+
+#dashboarddowan a:hover {
+  text-decoration: underline;
+}
+
+#adminData {
+  display: flex;
+  flex: 1;
+}
+
+#adminLeftMenu {
+  background-color: #222;
+  color: white;
+  padding: 20px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+#adminLeftMenu .adminMenu {
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #444;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+
+#adminLeftMenu .adminMenu:hover {
+  background-color: #444;
+  padding-left: 5px;
+}
+
+#adminRightData {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20px; /* Added padding for better spacing */
+}
+
+/*      navbar */
+
+.stop{
+  position: sticky;
+  top: 0;
+  z-index: 991;
+  
+}
+a{
+  color: rgb(244, 238, 238);
+ font-size: 17px;
+ padding: 1px;
+  
+}
+
+#topmenuleft ul 
+{
+    list-style: none;
+    display: flex
+}
+ a{
+  text-decoration: none;
+ }
+ 
+
+/* styles.css */
+/* styles.css */
+.btnlogin {
+  display: inline-block;
+  width: 60px;
+  height: 30px;
+  background-color: #007BFF;
+  color: white;
+  text-align: center;
+  line-height: 30px; /* Vertically centers the text */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Removes the underline from the text */
+  font-family: Arial, sans-serif;
+  font-size: 15px;
+  position: relative;
+  left: 200px;
+}
+
+
+
+
+#mainmenulogo img{
+  
+  width: 100px;
+  height: 35px;
+  position: relative;
+  top: -5px;
+  right: 230px;
+  
+  
+}
+
+.searchproduct{
+  position: relative;
+  bottom: 30px;
+}
+
+.cartCount
+{
+  padding: 5px;
+  border-radius: 50%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  height: 10px;
+  width: 10px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(97, 108, 95);
+  margin-left: 5px;
+}
+
+#topmenuright ul li 
+{
+  margin-left: 20px;
+}    
+
+
+
+#mainmenu
+{
+  
+    
+    display: flex;
+    justify-content: space-around;
+    height: 70px;
+    background-color: #d0c9c8;
+   position: relative;
+   bottom: 25px;
+   
+}
+
+#mainmenumiddle 
+{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+}
+
+
+
+#mainmenumiddle ul 
+{
+    display: flex;
+    list-style: none;
+    padding: 3px;
+}
+
+
+
+#mainmenumiddle ul  li
+{
+  margin: 20px;
+  
+}
+
+a{
+  color: black;
+}
+
+
+
+/*                    slider css                             */
+.imageContainer {
+  width: 100%;
+  height: 500px; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.slider{
+  position: relative;
+   bottom: 35PX;
+
+}
+
+
+.bannerSlider {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; 
+}
+
+  /*             featureProduct                 */
+#featureProduct
+{
+  padding-top: 20px;
+  text-align: center;
+}
+
+h2
+{
+  font-family: Arial, Helvetica, sans-serif;
+  color: #5959bf;
+}
+
+#pro1
+{
+  color: grey;
+  font-family: cursive;
+}
+
+
+.img:hover
+{
+background-color: red;
+}
+#fetaureProList
+{
+  padding-top: 20px;
+  width: 80%;
+  margin: auto;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap
+}
+
+
+.button {
+  position: relative;
+  padding: 10px 22px;
+  border-radius: 6px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  background-color: #514b59;
+  transition: all 0.2s ease;
+}
+
+.button:active {
+  transform: scale(0.96);
+}
+
+.button:before,
+.button:after {
+  position: absolute;
+  content: "";
+  width: 150%;
+  left: 50%;
+  height: 100%;
+  transform: translateX(-50%);
+  z-index: -1000;
+  background-repeat: no-repeat;
+}
+
+.button:hover:before {
+  top: -70%;
+  background-image: radial-gradient(circle, #a49eab 20%, transparent 20%),
+    radial-gradient(circle, transparent 20%, #7d2ae8 20%, transparent 30%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, transparent 10%, #7d2ae8 15%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%),
+    radial-gradient(circle, #7d2ae8 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%,
+    10% 10%, 18% 18%;
+  background-position: 50% 120%;
+  animation: greentopBubbles 0.6s ease;
+}
+
+@keyframes greentopBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%,
+      40% 90%, 55% 90%, 70% 90%;
+  }
+
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%,
+      50% 50%, 65% 20%, 90% 30%;
+  }
+
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%,
+      50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+  }
+}
+
+
+/*   Top selling product css*/
+
+
+
+
+#TopsellingProduct
+{
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+
+.se
+{
+  position: relative;
+  bottom: 130px;
+  
+}
+
+
+
+#TopsellingProList
+{
+  position: relative;
+  bottom: 110px;
+  
+  width: 80%;
+  margin: auto;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+/*         Trending Products     cssss   */
+
+
+#TrendingProduct
+{
+  padding-bottom: 80px;
+  text-align: center;
+  margin: auto;
+
+}
+
+
+.se1
+{
+  position: relative;
+  bottom: 130px;
+  
+}
+#TrendingProList
+{
+  
+  position: relative;
+  bottom: 110px;
+  
+  width: 80%;
+  margin: auto;
+  
+  display: flex;
+  justify-content: space-between;
+}
+
+/*    shop page csss   */
+#shopProList
+{
+  justify-content: center;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto ;
+  gap: 40px;
+position: relative;
+top: 40px;
+  
+}
+
+
+
+/*                     Footer css              */
+
+.footer {
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
+
+.footer h5 {
+  color: #333;
+}
+
+.footer p {
+  color: #777;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer ul li a {
+  color: #777;
+  text-decoration: none;
+}
+
+.footer ul li a:hover {
+  color: #555;
+}
+
+.footer-bottom {
+  background-color: #343a40;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.footer-nav li:last-child {
+  margin-right: 0;
+}
+
+.footer-nav li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav li a:hover {
+  text-decoration: underline;
+}
+
+
+form {border: 3px solid #f1f1f1;}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+/*           admin login css               */
+
+/* Container for the form */
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f7f7f7;
+}
+
+/* Form styles */
+.form {
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Input fields */
+.form input[type="text"], 
+.form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Labels */
+.form label {
+    margin-bottom: 6px;
+    display: inline-block;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Error message */
+.error-message {
+    color: red;
+    margin-bottom: 10px;
+}
+
+/* Submit button */
+.submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.submit-button:hover {
+    background-color: #45a049;
+}
+
+
+
+/* Container for the form */
+.form-container {
+  margin: auto;
+  width: 500px;
+}
+
+/* Style for the form */
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Style for labels */
+label {
+  margin-bottom: px;
+  font-weight: bold;
+}
+
+/* Style for input fields */
+input[type="text"],
+select,
+input[type="file"] {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 12px;
+}
+
+/* Style for select dropdown */
+select {
+  width: 100%;
+}
+
+/* Style for submit button */
+input[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+/* Hover effect for submit button */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+
+
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 30px;
+  background-color: #f0f0f0;
+
+}
+
+.left-section, .right-section {
+  flex: 1;
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: black;
+  margin-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+}
+
+.input {
+  width: 100%;
+  max-width: 500px;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.input:focus {
+  border-color: #007BFF;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  max-width: 200px;
+
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+
+
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #fff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* Logo */
+.navbar-logo a {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ff3f6c;
+  text-decoration: none;
+}
+
+/* Links */
+.navbar-links {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-links a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  padding: 5px 0;
+}
+
+.navbar-links a:hover {
+  color: #ff3f6c;
+}
+
+/* Search Bar */
+.navbar-search input {
+  width: 300px;
+  padding: 8px 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* Icons */
+.navbar-icons {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar-icons a {
+  color: #333;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+.navbar-icons a:hover {
+  color: #ff3f6c;
+}
+
+/*                CART PAGE       */
+
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.customermain{
+  width: 99%;
+  margin: auto;
+  position: relative;
+  bottom: 50px;
+}
+
+#customers {
+  width: 100%;
+position: relative;
+bottom: 400px;
+  margin: 30px auto;
+  border-collapse: collapse;
+  background-color: #ffffff;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  overflow: hidden;
+
+}
+
+#customers th, #customers td {
+  border: 1px solid #e9ecef;
+  padding: 6px;
+  text-align: center;
+}
+
+#customers th {
+  background-color: #343a40;
+  color: white;
+
+  letter-spacing: 0.1em;
+}
+
+#customers tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+#customers tr:hover {
+  background-color: #e9ecef;
+}
+
+#customers img {
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+#checkout-button {
+  display: block;
+  width: 200px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+
+
+td a {
+  color: #007bff;
+  cursor: pointer;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+td a:hover {
+  color: #0056b3;
+}
+
+td span {
+  font-size: 16px;
+}
+
+tfoot td {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #343a40;
+  text-align: right;
+  padding-top: 20px;
+}
+
+tfoot td:last-child {
+  text-align: center;
+  padding-right: 15px;
+}
+
+
+
+/* Add this to your main stylesheet or create a new one for the footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 0;
+  width: 100%;
+  
+  
+  padding: 60px;
+  
+ 
+}
+.footer-container {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+.footer-section {
+  width: 30%;
+}
+
+h3 {
+  font-size: 1.4em;
+}
+p {
+  font-size: 0.9em;
+}
+
+
+/*      customer product details     */
+#customers {
+  position: relative;
+  bottom: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#customers td, #customers th {
+  border: 1px solid #f3b6b6;
+  padding: 1px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 1px;
+  padding-bottom: 8px;
+  text-align: left;
+  background-color: #3d6d5b;
+  color: white;
+}
+
+
+/*     customer update cssssssss          */
+
+.ss{
+  position: relative;
+  bottom: 27px;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+  position: relative;
+  bottom: 45px;
+}
+
+th, td {
+  padding: 12px;
+  border: 1px solid #ddd;
+}
+
+th {
+  background-color: #f2f2f2;
+  color: #333;
+  height: 20px;
+  
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+.button {
+  padding: 10px 20px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+/*  ujhy8 Login   form                              */
+.login-container {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button-group {
+  text-align: center;
+}
+
+.button {
+  padding: 10px 20px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.signup-link {
+  color: #007bff;
+  cursor: pointer;
+}
+
+.signup-link:hover {
+  text-decoration: underline;
+}
+
